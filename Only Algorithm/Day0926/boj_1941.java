@@ -52,7 +52,7 @@ public class boj_1941 {
 			}
 			int count = 0;
 			int all = 0;
-			q.add(new Point(Y, X));
+			q.add(new Point(X, Y));
 			visit[Y][X] = true;
 			
 			while (!q.isEmpty()) {
@@ -73,19 +73,13 @@ public class boj_1941 {
 					if (map[ny][nx] == 0) {
 						continue;
 					}
-
 					visit[ny][nx] = true;
-					q.add(new Point(ny, nx));
+					q.add(new Point(nx, ny));
 				}
 			}
 			if (all == 7 && count >= 4) {
 				result++;
-				for(int i=0;i<5;i++) {
-					for(int j=0;j<5;j++) {
-						System.out.print(map[i][j]+" ");
-					}
-					System.out.println();
-				}
+				
 			}
 			return;
 		}
