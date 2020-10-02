@@ -18,7 +18,7 @@ public class Boj_1697 {
 			if(temp == b) {
 				break out;
 			}
-			if(temp-1>0 && visit[temp-1]==0) {
+			if(temp-1>=0 && visit[temp-1]==0) {
 				visit[temp-1] = visit[temp]+1;
 				q.add(temp-1);
 			}
@@ -26,7 +26,7 @@ public class Boj_1697 {
 				visit[temp+1] = visit[temp]+1;
 				q.add(temp+1);
 			}
-			if(temp*2>0 && temp*2<100001 && visit[temp*2]==0) {
+			if(temp*2>=0 && temp*2<100001 && visit[temp*2]==0) {
 				visit[temp*2] = visit[temp]+1;
 				q.add(temp*2);
 			}
