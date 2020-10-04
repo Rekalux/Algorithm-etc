@@ -9,8 +9,8 @@ public class Boj_14466 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
-		int K = sc.nextInt();
 		int R = sc.nextInt();
+		int K = sc.nextInt();
 		int map[][] = new int[N][N];
 		boolean cowmap[][] = new boolean[N][N];
 		boolean visit[][] = new boolean[N][N];
