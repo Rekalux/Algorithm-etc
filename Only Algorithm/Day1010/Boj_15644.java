@@ -1,53 +1,55 @@
 package Day1010;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Boj_13460 {
+public class Boj_15644 {
 	static int Y, X;
-	static int ball[][];
+	static int Ball2[][];
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		Y = sc.nextInt();
 		X = sc.nextInt();
-		ball = new int[Y][X];
+		Ball2 = new int[Y][X];
 		String s;
 		int result = -1;
-		Ball red = null, blue = null;
+		String result_s = null;
+		Ball2 red = null, blue = null;
 		for (int i = 0; i < Y; i++) {
 			s = sc.next();
 			for (int j = 0; j < X; j++) {
 				if (s.charAt(j) == '#') {
-					ball[i][j] = 2;
+					Ball2[i][j] = 2;
 				} else if (s.charAt(j) == '.') {
-					ball[i][j] = 0;
+					Ball2[i][j] = 0;
 				} else if (s.charAt(j) == 'O') {
-					ball[i][j] = 1;
+					Ball2[i][j] = 1;
 				} else if (s.charAt(j) == 'R') {
-					ball[i][j] = 0;
-					red = new Ball(j, i);
+					Ball2[i][j] = 0;
+					red = new Ball2(j, i);
 				} else if (s.charAt(j) == 'B') {
-					ball[i][j] = 0;
-					blue = new Ball(j, i);
+					Ball2[i][j] = 0;
+					blue = new Ball2(j, i);
 				}
 			}
 		}
-		Ballmap bm = new Ballmap(red, blue, 0);
+		Ball2map2 bm = new Ball2map2(red, blue, 0,"");
 //		for (int i = 0; i < Y; i++) {
 //			for (int j = 0; j < X; j++) {
-//				System.out.print(ball[i][j] + " ");
+//				System.out.print(Ball2[i][j] + " ");
 //			}
 //			System.out.println();
 //		}
 //		System.out.println(bm.red.y + " " + bm.red.x + " " + bm.blue.y + " " + bm.blue.x);
 		boolean visit[][][][] = new boolean[Y][X][Y][X];
-		Queue<Ballmap> q = new LinkedList<Ballmap>();
+		Queue<Ball2map2> q = new LinkedList<Ball2map2>();
 		q.add(bm);
 		visit[bm.red.y][bm.red.x][bm.blue.y][bm.blue.x] = true;
 		
 
-		Ballmap b;
+		Ball2map2 b;
 		int count;
 		out: while (!q.isEmpty()) {
 			bm = q.poll();
@@ -58,16 +60,17 @@ public class Boj_13460 {
 			}
 			
 			for (int i = 0; i < 4; i++) {
-				b = new Ballmap(new Ball(bm.red.x,bm.red.y),new Ball(bm.blue.x,bm.blue.y),count);
-				b.red = ballmove(b.red.x,b.red.y,b.blue.x,b.blue.y, i);
-				b.blue = ballmove(b.blue.x,b.blue.y,b.red.x,b.red.y, i);
-				b.red = ballmove(b.red.x,b.red.y,b.blue.x,b.blue.y, i);
+				b = new Ball2map2(new Ball2(bm.red.x,bm.red.y),new Ball2(bm.blue.x,bm.blue.y),count,bm.move);
+				b.red = Ball2move(b.red.x,b.red.y,b.blue.x,b.blue.y, i);
+				b.blue = Ball2move(b.blue.x,b.blue.y,b.red.x,b.red.y, i);
+				b.red = Ball2move(b.red.x,b.red.y,b.blue.x,b.blue.y, i);
 //				System.out.println(b.red.y + " " + b.red.x + " " + b.blue.y + " " + b.blue.x);
-				if (ball[b.blue.y][b.blue.x] == 1) {
+				if (Ball2[b.blue.y][b.blue.x] == 1) {
 					continue;
 				}
-				if (ball[b.red.y][b.red.x] == 1) {
+				if (Ball2[b.red.y][b.red.x] == 1) {
 					result = count;
+					result_s = b.move+dmove[i];
 					break out;
 				}
 				if (visit[b.red.y][b.red.x][b.blue.y][b.blue.x]) {
@@ -77,18 +80,22 @@ public class Boj_13460 {
 				
 //				System.out.println("찾음:"+b.red.y + " " + b.red.x + " " + b.blue.y + " " + b.blue.x);
 //				System.out.println();
-				q.add(new Ballmap(new Ball(b.red.x,b.red.y),new Ball(b.blue.x,b.blue.y),count));
+				q.add(new Ball2map2(new Ball2(b.red.x,b.red.y),new Ball2(b.blue.x,b.blue.y),count,b.move+dmove[i]));
 			}
 		}
 
 		System.out.println(result);
+		if(result >0) {
+			System.out.println(result_s);
+		}
 
 	}
 
 	static int[] dx = { 0, 0, 1, -1 };
 	static int[] dy = { 1, -1, 0, 0 };
+	static String[] dmove = {"D","U","R","L"};
 
-	static Ball ballmove(int rx,int ry,int bx,int by, int dir) {
+	static Ball2 Ball2move(int rx,int ry,int bx,int by, int dir) {
 		int nx, ny;
 		int py, px;
 		px = rx;
@@ -96,41 +103,43 @@ public class Boj_13460 {
 		while (true) {
 			nx = px+dx[dir];
 			ny = py+dy[dir];
-			if (ball[ny][nx] == 2) {
+			if (Ball2[ny][nx] == 2) {
 				break;
 			}
-			if (ball[py][px] == 1) {
+			if (Ball2[py][px] == 1) {
 				break;
 			}
-			if (ny == by && nx == bx && ball[ny][nx] != 1) {
+			if (ny == by && nx == bx && Ball2[ny][nx] != 1) {
 				break;
 			}
 			px = nx;
 			py = ny;
 		}
-		return new Ball(px, py);
+		return new Ball2(px, py);
 	}
 
 }
 
-class Ballmap {
-	Ball red;
-	Ball blue;
+class Ball2map2 {
+	Ball2 red;
+	Ball2 blue;
 	int count;
+	String move;
 
-	public Ballmap(Ball red, Ball blue, int count) {
+	public Ball2map2(Ball2 red, Ball2 blue, int count,String move) {
 		super();
 		this.red = red;
 		this.blue = blue;
 		this.count = count;
+		this.move =move;
 	}
 }
 
-class Ball {
+class Ball2 {
 	int x;
 	int y;
 
-	public Ball(int x, int y) {
+	public Ball2(int x, int y) {
 		super();
 		this.x = x;
 		this.y = y;
