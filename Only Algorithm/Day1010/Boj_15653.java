@@ -53,9 +53,9 @@ public class Boj_15653 {
 			bm = q.poll();
 //			System.out.println("현재 : "+ bm.red.y + " " + bm.red.x + " " + bm.blue.y + " " + bm.blue.x);
 			count = bm.count + 1;
-			if (count > 10) {
-				break;
-			}
+//			if (count > 10) {
+//				break;
+//			}
 			
 			for (int i = 0; i < 4; i++) {
 				b = new Ball4map(new Ball4(bm.red.x,bm.red.y),new Ball4(bm.blue.x,bm.blue.y),count);
