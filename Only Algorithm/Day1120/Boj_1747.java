@@ -1,6 +1,7 @@
-package Day1120;
+﻿package Day1120;
 
 import java.util.Scanner;
+
 
 public class Boj_1747 {
 	public static void main(String[] args) {
