@@ -58,6 +58,12 @@ public class Boj_5373 {
 				}
 				turn(cube,swit,landr);
 			}
+			for(int i=0;i<3;i++) {
+				for(int j=0;j<3;j++) {
+					System.out.print(cube[i][j][0]);
+				}
+				System.out.println();
+			}
 		}
 		
 	}
@@ -77,6 +83,131 @@ public class Boj_5373 {
 				for(int j=0;j<3;j++) {
 					paper[i][j] = cube[j][2-i][swit];
 				}
+			}
+		}
+		for(int i=0;i<3;i++) {
+			for(int j=0;j<3;j++) {
+				cube[i][j][swit] = paper[i][j];
+			}
+		}
+		if(swit==0 && landr==0) {
+			char tempnum;
+			for(int i=0;i<3;i++) {
+				tempnum = cube[0][i][3];
+				cube[0][i][3] = cube[0][i][4];
+				cube[0][i][4] = cube[0][i][2];
+				cube[0][i][2] = cube[0][i][5];
+				cube[0][i][5] = tempnum;
+			}
+		}
+		else if(swit==0 && landr==1) {
+			char tempnum;
+			for(int i=0;i<3;i++) {
+				tempnum = cube[0][i][3];
+				cube[0][i][3] = cube[0][i][5];
+				cube[0][i][5] = cube[0][i][2];
+				cube[0][i][2] = cube[0][i][4];
+				cube[0][i][4] = tempnum;
+			}
+		}
+		else if(swit==1 && landr==0) {
+			char tempnum;
+			for(int i=0;i<3;i++) {
+				tempnum = cube[2][i][3];
+				cube[2][i][3] = cube[2][i][5];
+				cube[2][i][5] = cube[2][i][2];
+				cube[2][i][2] = cube[2][i][4];
+				cube[2][i][4] = tempnum;
+			}
+		}
+		else if(swit==1 && landr==1) {
+			char tempnum;
+			for(int i=0;i<3;i++) {
+				tempnum = cube[2][i][3];
+				cube[2][i][3] = cube[2][i][4];
+				cube[2][i][4] = cube[2][i][2];
+				cube[2][i][2] = cube[2][i][5];
+				cube[2][i][5] = tempnum;
+			}
+		}
+		else if(swit==2 && landr==0) {
+			char tempnum;
+			for(int i=0;i<3;i++) {
+				tempnum = cube[2][i][0];
+				cube[2][i][0] = cube[2-i][2][4];
+				cube[2-i][2][4] = cube[2][i][1];
+				cube[2][i][1] = cube[i][0][5];
+				cube[i][0][5] = tempnum;
+			}
+		}
+		else if(swit==2 && landr==1) {
+			char tempnum;
+			for(int i=0;i<3;i++) {
+				tempnum = cube[2][i][0];
+				cube[2][i][0] = cube[i][0][5];
+				cube[i][0][5] = cube[2][i][1];
+				cube[2][i][1] = cube[2-i][2][4];
+				cube[2-i][2][4] = tempnum;
+			}
+		}
+		else if(swit==3 && landr==0) {
+			char tempnum;
+			for(int i=0;i<3;i++) {
+				tempnum = cube[0][i][0];
+				cube[0][i][0] = cube[i][2][5];
+				cube[i][2][5] = cube[0][i][1];
+				cube[0][i][1] = cube[2-i][0][4];
+				cube[2-i][0][4] = tempnum;
+			}
+		}
+		else if(swit==3 && landr==1) {
+			char tempnum;
+			for(int i=0;i<3;i++) {
+				tempnum = cube[0][i][0];
+				cube[0][i][0] = cube[2-i][0][4];
+				cube[2-i][0][4] = cube[0][i][1];
+				cube[0][i][1] = cube[i][2][5];
+				cube[i][2][5] = tempnum;
+			}
+		}
+		else if(swit==4 && landr==0) {
+			char tempnum;
+			for(int i=0;i<3;i++) {
+				tempnum = cube[i][0][0];
+				cube[i][0][0] = cube[2-i][2][3];
+				cube[2-i][2][3] = cube[2-i][2][1];
+				cube[2-i][2][1] = cube[i][0][2];
+				cube[i][0][2] = tempnum;
+			}
+		}
+		else if(swit==4 && landr==1) {
+			char tempnum;
+			for(int i=0;i<3;i++) {
+				tempnum = cube[i][0][0];
+				cube[i][0][0] = cube[i][0][2];
+				cube[i][0][2] = cube[2-i][2][1];
+				cube[2-i][2][1] = cube[2-i][2][3];
+				cube[2-i][2][3] = tempnum;
+			}
+		}
+		else if(swit==5 && landr==0) {
+			char tempnum;
+			for(int i=0;i<3;i++) {
+				tempnum = cube[i][2][0];
+				cube[i][2][0] = cube[i][2][2];
+				cube[i][2][2] = cube[2-i][0][1];
+				cube[2-i][0][1] = cube[2-i][0][3];
+				cube[2-i][0][3] = tempnum;
+			}
+		}
+		else if(swit==5 && landr==1) {
+			char tempnum;
+			for(int i=0;i<3;i++) {
+				tempnum = cube[i][2][0];
+				cube[i][2][0] = cube[2-i][0][3];
+				cube[2-i][0][3] = cube[2-i][0][1];
+				cube[2-i][0][1] = cube[i][2][2];
+				cube[i][2][2] = tempnum;
 			}
 		}
 	}
