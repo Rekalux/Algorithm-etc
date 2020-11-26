@@ -108,4 +108,4 @@ static class puzzle{
 		this.dis = dis;
 	}
 }
-}
+}//
