@@ -1,16 +1,21 @@
 package Day1210;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Stack;
 import java.util.StringTokenizer;
+
 
 public class Boj_11437 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br =new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
+		BufferedWriter bw =new BufferedWriter(new OutputStreamWriter(System.out));
 		int n = Integer.parseInt(br.readLine()); //15개의 
 		list = new LinkedList[n+1];
 		for(int i=0;i<n+1;i++) {
@@ -38,38 +43,31 @@ public class Boj_11437 {
 			}
 		}
 		
-		for(int i=1;i<n+1;i++) {
-			System.out.print(mother[i]+" ");
-		}
-		System.out.println();
-		
 		int m = Integer.parseInt(br.readLine());
 		for(int i=0;i<m;i++) {
 			st = new StringTokenizer(br.readLine());
 			int left = Integer.parseInt(st.nextToken());
 			int right = Integer.parseInt(st.nextToken());
-			Stack<Integer> l = new Stack<Integer>();
-			Stack<Integer> r = new Stack<Integer>();
-			l.add(left);
-			r.add(right);
-			findmo(l);
-			findmo(r);
+			HashSet<Integer> set = new HashSet<Integer>();
+			set.add(left);
 			int result = 1;
-			while(!l.isEmpty() && !r.isEmpty() && l.peek()==r.peek()) {
-				result = l.pop();
-				r.pop();
+			while(left!=1) {
+				left = mother[left];
+				set.add(left);
 			}
-			System.out.println(result);
+			while(right!=1) {
+				if(set.contains(right)) {
+					result = right;
+					break;
+				}
+				right = mother[right];
+			}
+			bw.write(result+"\n");
 		}
+		bw.flush();
+		bw.close();
 	}
+	
 	static LinkedList<Integer> list[];
 	static int mother[];
-	static void findmo(Stack<Integer> s) {
-		int top = s.peek();
-		if(top==-1) {
-			return;
-		}
-		s.add(mother[top]);
-		findmo(s);
-	}
 }
