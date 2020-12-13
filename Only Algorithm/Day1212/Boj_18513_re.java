@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Boj_18513 {
+public class Boj_18513_re { // 테스트케이스 수정으로 코드 수정
 	static int n, k;
 	static boolean[] visited;
 	
