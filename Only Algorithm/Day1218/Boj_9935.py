@@ -1,6 +1,6 @@
 a = input()
 b = input()
-a = " ".join(a).split()
+a = " ".join(a).split() # 리스트 변환
 b = " ".join(b).split()
 scanlist = []
 for i in a:
