@@ -1,10 +1,3 @@
-import sys
-rf = open('testcase.txt','r')
-f = open('test2.txt','w')
-print = lambda x : f.write(x)
-input = rf.readline
-
-
 def bellmanFord():
     global isPossible
 
@@ -19,9 +12,9 @@ def bellmanFord():
 
 T = int(input())
 
-for _ in range(T):
-    N, M, W = map(int, input().split())
+for tt in range(T):
 
+    N, M, W = map(int, input().split())
     INF = 2147483647
     dist = [INF for _ in range(N + 1)]
 
@@ -29,7 +22,6 @@ for _ in range(T):
 
     for _ in range(M):
         S, E, T = map(int, input().split())
-
         adjList[S].append((T, E))
         adjList[E].append((T, S))
 
@@ -43,6 +35,3 @@ for _ in range(T):
     bellmanFord()
 
     print("NO\n" if isPossible else "YES\n")
-
-rf.close()
-f.close()

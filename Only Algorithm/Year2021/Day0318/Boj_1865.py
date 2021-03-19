@@ -1,9 +1,7 @@
-from collections import deque
 import sys
-rf = open('testcase.txt','r')
-f = open('test1.txt','w')
-print = lambda x : f.write(x)
-input = rf.readline
+input = sys.stdin.readline
+
+
 T = int(input())
 for tc in range(T):
     n, m, w = map(int, input().split())
@@ -25,25 +23,14 @@ for tc in range(T):
         link[a].add(b)
         if -t < dis[a][b]:
             dis[a][b] = -t
+    max_dis = [0]*n
     for i in range(n):
-        q = deque()
-        q.append((i, 0))
-        visit = [False] * n
-        while q:
-            node, cost = q.pop()
-            visit[node] = True
-            for next_node in link[node]:
-                if next_node == i and cost + dis[node][next_node] < 0:
-                    found = True
-                    break
-                if visit[next_node]:
-                    continue
-                q.append((next_node, cost + dis[node][next_node]))
-            if found:
-                break
-        if found:
-            break
-    print('YES\n' if found else 'NO\n')
+        for j in range(n):
+            print(max_dis)
+            for next_node in link[j]:
+                if max_dis[next_node] > dis[j][next_node] + max_dis[j]:
+                    max_dis[next_node] = dis[j][next_node] + max_dis[j]
+                    if i == n-1:
+                        found = True
 
-rf.close()
-f.close()
+    print('YES' if found else 'NO')
