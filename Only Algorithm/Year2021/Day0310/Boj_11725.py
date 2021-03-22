@@ -13,11 +13,11 @@ q = deque()
 q.append(1)
 root[1] = -1
 while q:
-    point = q.popleft()
-    for next_point in link[point]:
+    core = q.popleft()
+    for next_point in link[core]:
         if root[next_point]:
             continue
-        root[next_point] = point
+        root[next_point] = core
         q.append(next_point)
 print('\n'.join(map(str, root[2:])))
 

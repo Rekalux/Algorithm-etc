@@ -27,14 +27,14 @@ for i in range(n):
 result = 0
 
 while q:
-    point = q.popleft()
+    core = q.popleft()
     pre_max = 0
-    for pre in link_reverse[point]:
+    for pre in link_reverse[core]:
         pre_max = max(pre_max, dp[pre])
-    dp[point] = pre_max + time[point]
-    if dp[point] > result:
-        result = dp[point]
-    for next_link in link[point]:
+    dp[core] = pre_max + time[core]
+    if dp[core] > result:
+        result = dp[core]
+    for next_link in link[core]:
         link_count[next_link] -= 1
         if not link_count[next_link]:
             q.append(next_link)

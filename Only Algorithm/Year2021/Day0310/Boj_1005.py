@@ -22,14 +22,14 @@ for _ in range(T):
         if not value:
             q.append(i)
     while q:
-        point = q.popleft()
+        core = q.popleft()
         max_num = 0
-        for i in reverse[point]:
+        for i in reverse[core]:
             max_num = max(max_num, sum_time[i])
-        sum_time[point] = max_num + time[point]
-        if point == obj:
+        sum_time[core] = max_num + time[core]
+        if core == obj:
             break
-        for i in link[point]:
+        for i in link[core]:
             degree[i] -= 1
             if not degree[i]:
                 q.append(i)
