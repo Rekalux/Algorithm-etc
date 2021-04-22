@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60443004-8d3b-4ebd-ab18-dfba31c4851d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="60443004-8d3b-4ebd-ab18-dfba31c4851d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,56 +12,44 @@
     <session id="329844998">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="26" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.4" value="7" />
           <entry key="project.open.time.5" value="9" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="57" />
+          <entry key="py" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="57" />
+          <entry key="Python" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="38" />
-          <entry key="py" value="30034" />
+          <entry key="py" value="30349" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="38" />
-          <entry key="Python" value="30034" />
+          <entry key="Python" value="30349" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Year2021/Day0420/Boj_17371.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="28" selection-end-line="15" />
-              <folding>
-                <marker date="1618915445163" expanded="true" signature="103:108" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Year2021/Day0420/Boj_9184.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,11 +86,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Year2021/Day0421/Boj_1026.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Year2021/Day0422/Boj_1010.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="12" column="39" lean-forward="true" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -165,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Year2021/Day0326/Boj_2263.py" />
         <option value="$PROJECT_DIR$/Year2021/Day0327/Boj_1994.py" />
         <option value="$PROJECT_DIR$/Year2021/Day0328/test.py" />
         <option value="$PROJECT_DIR$/Year2021/Day0328/Boj_2448.py" />
@@ -216,12 +210,13 @@
         <option value="$PROJECT_DIR$/Year2021/Day0420/Boj_11052.py" />
         <option value="$PROJECT_DIR$/Year2021/Day0420/Boj_2445.py" />
         <option value="$PROJECT_DIR$/Year2021/Day0421/Boj_1026.py" />
+        <option value="$PROJECT_DIR$/Year2021/Day0422/Boj_1010.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="306" />
-    <option name="y" value="250" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="216" />
+    <option name="y" value="187" />
     <option name="width" value="1155" />
     <option name="height" value="805" />
   </component>
@@ -231,7 +226,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,22 +238,11 @@
               <item name="Only Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="Year2021" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Only Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Only Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Year2021" type="462c0819:PsiDirectoryNode" />
-              <item name="Day0419" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Only Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Only Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Year2021" type="462c0819:PsiDirectoryNode" />
-              <item name="Day0420" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,7 +266,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Boj_1026">
+  <component name="RunManager" selected="Python.Boj_1010">
+    <configuration name="Boj_1010" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Only Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Year2021/Day0422" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Year2021/Day0422/Boj_1010.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Boj_1026" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Only Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -368,41 +372,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Boj_9184" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Only Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Year2021/Day0420" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Year2021/Day0420/Boj_9184.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.Boj_9184" />
       <item itemvalue="Python.Boj_1934" />
       <item itemvalue="Python.Boj_11052" />
       <item itemvalue="Python.Boj_2445" />
       <item itemvalue="Python.Boj_1026" />
+      <item itemvalue="Python.Boj_1010" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Boj_1010" />
         <item itemvalue="Python.Boj_1026" />
         <item itemvalue="Python.Boj_2445" />
         <item itemvalue="Python.Boj_11052" />
         <item itemvalue="Python.Boj_1934" />
-        <item itemvalue="Python.Boj_9184" />
       </list>
     </recent_temporary>
   </component>
@@ -420,14 +403,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="245" y="200" width="924" height="644" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17474633" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17448777" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4862745" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48579547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -445,13 +428,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Year2021/Day0328/Boj_15657.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Year2021/Day0329/Boj_1916.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -733,6 +709,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Year2021/Day0420/Boj_2445.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Year2021/Day0415/Boj_10953.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -761,17 +744,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Year2021/Day0420/Boj_2445.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Year2021/Day0421/Boj_1026.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Year2021/Day0422/Boj_1010.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="39" lean-forward="true" selection-end-line="13" />
         </state>
       </provider>
     </entry>
