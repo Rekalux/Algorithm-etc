@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60443004-8d3b-4ebd-ab18-dfba31c4851d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Year2021/Day0623/Boj_1202.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,8 +130,8 @@
       <recent name="C:\Users\multicampus\Desktop\Algorithm\Algorithm-etc\Only Algorithm\Year2021\Day0331" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Boj_1202">
-    <configuration name="Boj_1037" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Boj_11051">
+    <configuration name="Boj_11051" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Only Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,11 +139,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Year2021/Day0610" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Year2021/Day0624" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Year2021/Day0610/Boj_1037.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Year2021/Day0624/Boj_11051.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,19 +237,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Boj_1037" />
       <item itemvalue="Python.Boj_3046" />
       <item itemvalue="Python.Boj_2468" />
       <item itemvalue="Python.Boj_2293" />
       <item itemvalue="Python.Boj_1202" />
+      <item itemvalue="Python.Boj_11051" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Boj_11051" />
         <item itemvalue="Python.Boj_1202" />
         <item itemvalue="Python.Boj_2293" />
         <item itemvalue="Python.Boj_2468" />
         <item itemvalue="Python.Boj_3046" />
-        <item itemvalue="Python.Boj_1037" />
       </list>
     </recent_temporary>
   </component>
@@ -300,6 +299,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
