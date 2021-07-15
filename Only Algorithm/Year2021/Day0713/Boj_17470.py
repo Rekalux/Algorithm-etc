@@ -20,7 +20,7 @@ def change2(list1):
 def change3(list1):
     for i in range(len(list1)):
         for j in range(list1[i]):
-
+            pass
 
 
 
