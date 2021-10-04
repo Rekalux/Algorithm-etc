@@ -138,7 +138,7 @@
       <recent name="C:\Users\multicampus\Desktop\Algorithm\Algorithm-etc\Only Algorithm\Year2021\Day0331" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Boj_1068">
+  <component name="RunManager" selected="Python.Boj_4358">
     <configuration name="Boj_1068" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Only Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,7 +223,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="jonghui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Boj_4358" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Only Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -231,11 +231,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Year2021/Day0930" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Year2021/Day1004" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\USER\OneDrive\바탕 화면\Algorithm\Algorithm_20-21\Algorithm-etc\Only Algorithm\Year2021\Day0930\jonghui.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Year2021/Day1004/Boj_4358.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,17 +247,17 @@
     <list>
       <item itemvalue="Python.Boj_2752 (1)" />
       <item itemvalue="Python.Boj_2752" />
-      <item itemvalue="Python.jonghui" />
       <item itemvalue="Python.Boj_2217" />
       <item itemvalue="Python.Boj_1068" />
+      <item itemvalue="Python.Boj_4358" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Boj_4358" />
         <item itemvalue="Python.Boj_1068" />
         <item itemvalue="Python.Boj_2217" />
         <item itemvalue="Python.Boj_2752 (1)" />
         <item itemvalue="Python.Boj_2752" />
-        <item itemvalue="Python.jonghui" />
       </list>
     </recent_temporary>
   </component>
