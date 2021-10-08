@@ -17,6 +17,7 @@ input = sys.stdin.readline
 n = int(input())
 q = {}  # 문제 테이블
 level = {}  # 난이도에 따른 분류 (list 안에 list 형식으로 미리 100개를 구현해뒀는데 시간 초과로 틀렸음)
+# level = [[[] for _ in range(2)] for in range(100)] -> 시간초과... 왜..?
 low_level = []  # 최소 난이도 힙
 high_level = []  # 최대 난이도 힙
 n_level = {}  # 난이도 별 개수
@@ -26,17 +27,17 @@ for _ in range(n):
 m = int(input())
 for _ in range(m):
     f_command = input()
-    if f_command[0] == 'a': # 추가 연산
+    if f_command[0] == 'a':  # 추가 연산
         com, p, le = f_command.split()
         p, le = map(int, [p, le])
         add(p, le)  # 새로운 문제 추가
-    elif f_command[0] == 'r': # 출력 연산
+    elif f_command[0] == 'r':  # 출력 연산
         com, num = f_command.split()
         num = int(num)
         # -1이면 최소난이도에서 최소힙 문제를 찾음
         # 1이면 최대난이도에서 최대힙 문제를 찾음
         print(level[low_level[0]][0][0] if num == -1 else -level[-high_level[0]][1][0])
-    else: # 삭제연산
+    else:  # 삭제연산
         com, num = f_command.split()
         num = int(num)
         le = q.pop(num)  # 문제 번호로 레벨 찾고 삭제
