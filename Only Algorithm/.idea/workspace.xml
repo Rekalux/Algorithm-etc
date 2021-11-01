@@ -139,28 +139,7 @@
       <recent name="C:\Users\multicampus\Desktop\Algorithm\Algorithm-etc\Only Algorithm\Year2021\Day0331" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Boj_14428">
-    <configuration name="Boj_11505" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Only Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Year2021/Day1101" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Year2021/Day1101/Boj_11505.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Boj_5339">
     <configuration name="Boj_14428" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Only Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,7 +161,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Boj_15881" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Boj_2250" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Only Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -190,11 +169,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Year2021/Day1031" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Year2021/Day1101" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Year2021/Day1031/Boj_15881.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Year2021/Day1101/Boj_2250.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,7 +182,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Boj_16395" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Boj_2250_short (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Only Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -211,11 +190,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Year2021/Day1030" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Year2021/Day1101" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Year2021/Day1030/Boj_16395.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Year2021/Day1101/Boj_2250_short.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,7 +203,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Boj_2357" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Boj_2250_short" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Only Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,11 +211,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Year2021/Day1031" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Year2021/Day1101" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Year2021/Day1031/Boj_2357.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\USER\OneDrive\바탕 화면\Algorithm\Algorithm_20-21\Algorithm-etc\Only Algorithm\Year2021\Day1101\Boj_2250_short.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Boj_5339" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Only Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Year2021/Day1101" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Year2021/Day1101/Boj_5339.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,19 +246,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Boj_16395" />
-      <item itemvalue="Python.Boj_15881" />
-      <item itemvalue="Python.Boj_2357" />
-      <item itemvalue="Python.Boj_11505" />
       <item itemvalue="Python.Boj_14428" />
+      <item itemvalue="Python.Boj_2250" />
+      <item itemvalue="Python.Boj_2250_short" />
+      <item itemvalue="Python.Boj_2250_short (1)" />
+      <item itemvalue="Python.Boj_5339" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Boj_5339" />
+        <item itemvalue="Python.Boj_2250_short (1)" />
+        <item itemvalue="Python.Boj_2250" />
+        <item itemvalue="Python.Boj_2250_short" />
         <item itemvalue="Python.Boj_14428" />
-        <item itemvalue="Python.Boj_11505" />
-        <item itemvalue="Python.Boj_2357" />
-        <item itemvalue="Python.Boj_15881" />
-        <item itemvalue="Python.Boj_16395" />
       </list>
     </recent_temporary>
   </component>
