@@ -139,8 +139,8 @@
       <recent name="C:\Users\multicampus\Desktop\Algorithm\Algorithm-etc\Only Algorithm\Year2021\Day0331" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Boj_5339">
-    <configuration name="Boj_14428" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Boj_11055">
+    <configuration name="Boj_11055" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Only Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,11 +148,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Year2021/Day1101" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Year2021/Day1102" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Year2021/Day1101/Boj_14428.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Year2021/Day1102/Boj_11055.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,19 +246,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Boj_14428" />
       <item itemvalue="Python.Boj_2250" />
       <item itemvalue="Python.Boj_2250_short" />
       <item itemvalue="Python.Boj_2250_short (1)" />
       <item itemvalue="Python.Boj_5339" />
+      <item itemvalue="Python.Boj_11055" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Boj_11055" />
         <item itemvalue="Python.Boj_5339" />
         <item itemvalue="Python.Boj_2250_short (1)" />
         <item itemvalue="Python.Boj_2250" />
         <item itemvalue="Python.Boj_2250_short" />
-        <item itemvalue="Python.Boj_14428" />
       </list>
     </recent_temporary>
   </component>
