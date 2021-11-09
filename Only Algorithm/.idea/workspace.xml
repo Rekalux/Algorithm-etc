@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60443004-8d3b-4ebd-ab18-dfba31c4851d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Year2021/Day1108/Boj_9084.py" beforeDir="false" afterPath="$PROJECT_DIR$/Year2021/Day1108/Boj_9084.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +140,7 @@
       <recent name="C:\Users\multicampus\Desktop\Algorithm\Algorithm-etc\Only Algorithm\Year2021\Day0331" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Boj_2141">
+  <component name="RunManager" selected="Python.Boj_9084">
     <configuration name="Boj_1339" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Only Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -254,8 +255,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Boj_2141" />
         <item itemvalue="Python.Boj_9084" />
+        <item itemvalue="Python.Boj_2141" />
         <item itemvalue="Python.Boj_1339" />
         <item itemvalue="Python.Boj_1789" />
         <item itemvalue="Python.Boj_1946" />
