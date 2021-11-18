@@ -1,0 +1,1 @@
+l,a,b,c,d=[int(input())for _ in'a'*5];print(l-max((a-1)//c+1,(b-1)//d+1))
