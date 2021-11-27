@@ -1,0 +1,1 @@
+j=int;i=input;a,b,c=j(i()),j(i()),j(i());print('Equilateral' if a==b==c==60 else 'Error' if a+b+c!=180 else 'Scalene' if a!=b!=c!=a else 'Isosceles')
